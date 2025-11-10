@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NUR FOUND FOWARD | Payment Page</title>
+    <link rel="stylesheet" href="css/pasarela.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <header class="navbar">
+        <div class="logo">NUR FOUND FOWARD</div>
+
+        <div class="search-container">
+            <input type="text" placeholder="Search..." class="search-input">
+            <i class="fas fa-search search-icon"></i>
+        </div>
+
+        <div class="nav-icons">
+            <i class="fas fa-handshake"></i>
+            <i class="fas fa-shopping-cart"></i>
+        </div>
+    </header>
+
+
+    <section class="payment-section">
+        <div class="payment-box">
+            <h2>Donor Details</h2>
+            <hr>
+
+            <form action="#">
+                <div class="form-group">
+                    <div class="form-left">
+                        <label>Full Name</label>
+                        <input type="text" placeholder="Full Name" required>
+
+                        <label>Email Address</label>
+                        <input type="email" placeholder="Email Address" required>
+                    </div>
+
+                    <div class="divider"></div>
+
+                    <div class="form-right">
+                        <label>Payment Method</label>
+                        <select required>
+              <option value="Credit Card">Credit Card</option>
+              <option value="PayPal">PayPal</option>
+              <option value="Bank Transfer">Bank Transfer</option>
+            </select>
+
+                        <div class="amount-box">
+                            <p><strong>Amount:</strong> $25.00</p>
+                            <p class="project">Project: Educate the Future</p>
+                        </div>
+                    </div>
+                </div>
+
+                <button type="submit" class="btn-confirm">Confirm Donation</button>
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>
